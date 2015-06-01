@@ -22,6 +22,6 @@ public class GameManager : MonoBehaviour
 
 	void updateScoreText ()
 	{
-		scoreText.text = score.ToString ();
+		scoreText.text = Mathf.Round(score).ToString ();
 	}
 }
